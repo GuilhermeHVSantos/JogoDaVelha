@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: arial, helvetica, sans-serif;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: inline-block;
+    margin: -2px;
+}
+
+.o {
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 120px;
+    line-height: 200px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.x {
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 120px;
+    line-height: 200px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+button {
+
+    font-size: 20px;
+}
+
+#vez {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#vencedor {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#reset {
+    display: inline-block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 40px;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
